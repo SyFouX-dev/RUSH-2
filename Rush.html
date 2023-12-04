@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Rush.css">
+    <title>RUSH 2</title>
+</head>
+<body>
+
+    <div class="archive">
+        <h1>📁 CREATEUR D'ARCHIVE</h1>
+        <label for="archiveName">NOM DE L'ARCHIVE:</label>
+        <input type="text" id="archiveName" placeholder="Nom de l'archive">
+
+        <div id="Update">
+                <div>AJOUTER UN FICHIER</div>
+                <input type="file" id="file-input" name="files[]" multiple onchange="handleFiles(this.files)">
+              </div>
+
+              <ul class="ajoutlist"></ul>
+
+
+        <button onclick="">Générer un fichier TAR</button>
+        <button onclick="">Télécharger l'archive</button>
+    </div>
+</body>
+</html>
